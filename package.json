@@ -1,0 +1,41 @@
+{
+  "name": "yelpcamp",
+  "version": "1.0.0",
+  "description": "This is a social media like camping website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "shrawank22"
+  ],
+  "author": "Shrawan Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "body-parser": "^1.20.1",
+    "connect-flash": "^0.1.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-sanitizer": "^1.0.6",
+    "express-session": "^1.17.3",
+    "locus": "^2.0.4",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.0",
+    "node-geocoder": "^4.2.0",
+    "nodemailer": "^6.8.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.1.2",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "stripe": "^11.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
